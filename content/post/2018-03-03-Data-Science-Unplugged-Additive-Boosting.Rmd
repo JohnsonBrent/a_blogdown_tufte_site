@@ -1,0 +1,15 @@
+---
+title: "Data Science Unplugged: Additive Boosting"
+author: Brent Johnson
+date: '2018-02-14'
+slug: example-blog-post
+categories: []
+tags: ["R", "Data Science Unplugged"]
+showthedate: false
+excerpt: "A tutorial that explains additive boosting using very simple R code. This makes the steps and assumptions behind the algorithm very clear."
+---
+
+
+
+<iframe width="100%" height="12500" name="iframe" src="/files/2018-02-19-data-science-unplugged-additive-boosting.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+

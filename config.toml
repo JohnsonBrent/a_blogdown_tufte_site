@@ -11,20 +11,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "/About/"
+#[[menu.main]]
+#    name = "CV"
+#    url = "/CV/"
 
 [params]
     description = "A website built through Hugo and blogdown."
+	showPoweredBy = false
+    copyrightHolder = "Brent Johnson"
 
     # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.11.0"
-    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
     highlightjsLang = ["r", "yaml"]
     highlightjsTheme = "github"
 
@@ -32,8 +31,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
+    url = "Brent_Johnson_centralmoment.com.png"
+    width = 525
+    height = 130
     alt = "Logo"
-
+	
+	# social icons used in footer
+	# can use any font awesome icon: http://fontawesome.io/icons/
+    [[params.social]]
+    name = "GitHub"
+    icon = "github"
+    link = "https://github.com/JohnsonBrent/"
+    [[params.social]]
+    name = "LinkedIn"
+    icon = "linkedin-square"
+    link = "https://www.linkedin.com/in/brentjjohnson/"
